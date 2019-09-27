@@ -1,6 +1,4 @@
-/***************************************
-	  Shared CSS across Entire Site
-****************************************/
+
 * {
     box-sizing: border-box;
     text-decoration: none;
@@ -14,7 +12,6 @@
 
 [class*="col-"] {
     float: left;
-    /*border: 1px solid red;*/
 }
 
 .col-1 {width: 8.33%;}
@@ -31,11 +28,11 @@
 .col-12 {width: 100%;}
 
 a {
-	color: #777777;
+	color: navy;
 	text-decoration: none;
 }
 a:visited {
-	color: #777777;
+	color: navy;
 }
 
 a:hover {
@@ -54,7 +51,7 @@ body {
 	background: #fff;
 	height: 70px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #777777;
+	color: navy;
 	border-bottom: 2px solid #cccccc;
 }
 
@@ -67,7 +64,7 @@ body {
 	padding: 17px;
 	margin: 0px 0px 0px 0px;
 	font-size: 2.2em;
-	background: #4aaaa5;
+	background: navy;
 	text-align: center;
 	color: #fff;
 }
@@ -86,7 +83,7 @@ body {
 
 #connect {
 	background: #fff;
-	color: #4aaaa5;
+	color: navy;
 	text-align: center;
 	font-size: 1.4em;
 	margin: 35px 35px 15px 15px;
@@ -105,18 +102,16 @@ body {
 #footer {
 	position: absolute;
 	bottom: 0px;
-	background: #666666;
+	background: navy;
 	height: 70px;
 	text-align: center;
 	line-height: 70px;
 	color: #fff;
-	border-top: 2px solid #4aaaa5;
+	border-top: 2px solid navy;
 
 }
 
-/***************************************
-		       INDEX.HTML
-****************************************/
+/* Home page */
 
 #about {
 	background: #fff;
@@ -124,13 +119,14 @@ body {
 	margin: 35px 15px 15px 35px;
 	padding: 15px;
 	overflow: auto;
+	color: navy;
 }
 
 #about h2 {
 	font-size: 1.5em;
 	font-weight: bold;
 	padding: 0px 0px 5px 15px;
-	color: #4aaaa5;
+	color: navy;
 }
 
 #about hr {
@@ -153,9 +149,7 @@ body {
 
 }
 
-/***************************************
-		      PORTFOLIO.HTML
-****************************************/
+/* Porfolio page */
 
 #portfolio {
 	background: #fff;
@@ -170,7 +164,7 @@ body {
 	font-size: 1.5em;
 	font-weight: bold;
 	padding: 0px 0px 5px 15px;
-	color: #4aaaa5;
+	color: navy;
 }
 
 #portfolio hr {
@@ -192,17 +186,16 @@ body {
 
 .portLabel {
 	color: #fff;
-	background-color: #4aaaa5;
+	background-color: navy;
 	line-height: 40px;
 	text-align: center;
 	position: relative;
 	bottom: 53px;
+	opacity: 0.85;
 
 }
 
-/***************************************
-		      CONTACT.HTML
-****************************************/
+/* contact page */
 
 #contact {
 	background: #fff;
@@ -216,7 +209,7 @@ body {
 	font-size: 1.5em;
 	font-weight: bold;
 	padding: 0px 0px 5px 15px;
-	color: #4aaaa5;
+	color: navy;
 }
 
 #contact hr {
@@ -226,11 +219,11 @@ body {
 
 #contact form {
 	margin-left: 15px;
-	color: #777777;
+	color: navy;
 }
 
 #contact form input {
-	color: #777777;
+	color: navy;
 	width: 97%;
 	margin-bottom: 10px;
 	margin-top: 3px;
@@ -276,7 +269,7 @@ body {
 	color: #fff;
 	width: 70px;
  	height: 30px;
- 	background: #4aaaa5;
+ 	background: navy;
  	border: none;
  	margin-top: 5px;
  	border-radius: 2px;
